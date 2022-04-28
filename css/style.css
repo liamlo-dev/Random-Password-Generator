@@ -187,17 +187,20 @@ hr {
 }
 
 @media only screen and (max-width: 600px) {
-  body {background-color: lightblue;}
+
   .password-btn {
     width: 100%;
   }
+
   #options {
     grid-template-columns: none;
   }
+
   #container {
     width: 90%;
-    height: 90%;
+    height: auto;
   }
+
   #settings {
     display: initial;
   }
@@ -211,7 +214,7 @@ hr {
   }
   
   hr {
-    margin-bottom: 0;
+    margin: 5% 0;
   }
 
   #input-range {

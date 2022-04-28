@@ -38,7 +38,7 @@ label {
 /* checked mark aspect */
 [type="checkbox"]:not(:checked)+label:after,
 [type="checkbox"]:checked+label:after {
-  content: '✔';
+  content: '✓';
   position: absolute;
   top: 0.58em;
   left: 0.16em;
