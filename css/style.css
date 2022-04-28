@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
+
 :root {
   --background: #1f2937;
   --primary-text: #f1f5f9;
@@ -60,10 +61,6 @@
   height: 550px;
   background-color: var(--background);
   margin: 25px auto 25px auto;
-  /* position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); */
   border-radius: 25px;
   box-shadow: 8px 16px 16px rgba(0, 0, 0, 0.445);
   padding: 30px;
@@ -188,4 +185,19 @@ hr {
 
 .password-btn i {
   color: #1a2435;
+}
+
+@media (max-width: 600px) {
+  body {background-color: lightblue;}
+  .password-btn {
+    width: 100%;
+  }
+  #options {
+    grid-template-columns: none;
+  }
+  #container {
+    width: 90%;
+    height: 90%;
+  }
+
 }
