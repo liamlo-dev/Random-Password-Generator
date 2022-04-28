@@ -76,7 +76,7 @@
   color: var(--green);
   font-weight: bolder;
   font-size: 3rem;
-  line-height: 25px;
+  line-height: 35px;
 }
 
 #content p {
@@ -145,7 +145,6 @@
 }
 
 hr {
-  border: 1px solid #1a24356b;
   margin: 30px 0;
 }
 
@@ -187,7 +186,7 @@ hr {
   color: #1a2435;
 }
 
-@media (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   body {background-color: lightblue;}
   .password-btn {
     width: 100%;
@@ -199,5 +198,33 @@ hr {
     width: 90%;
     height: 90%;
   }
+  #settings {
+    display: initial;
+  }
 
+  #input-symbols {
+    margin-bottom: 5%;
+  }
+
+  #input-letters {
+    margin-bottom: 5%;
+  }
+  
+  hr {
+    margin-bottom: 0;
+  }
+
+  #input-range {
+    display: initial;
+  }
+
+  #slider {
+    width: 100%;
+  }
+
+  #slider-value{
+    margin-left: 0px;
+    margin-bottom: 5%;
+    padding: 0;
+  }
 }
